@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'playfair Display';
 }
 
@@ -20,14 +20,11 @@ h1,h2,h3,h4,h5,h6 {
 
 .menu {
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 .menu li {
     display: inline;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin: 0 5px;
     border-bottom: transparent solid 3px;
 }
 
@@ -50,3 +47,173 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 16px;
     color: white;
 }
+
+.topo {
+    background-image: url('../img/MicrosoftTeams-image.png');
+    background-size: cover;
+}
+
+
+
+.banner {
+    margin: 100px;
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-titulo {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-weight: 100;
+}
+
+.banner-subtitulo {
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner-texto {
+    color: white;
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.banner-botao {
+    background-color: #99cd31;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    padding: 20px 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.pessoa img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.personalidades {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.personalidades-titulo {
+    font-size: 40px;
+    color: #99cd31;
+    margin-bottom: 50px;
+}
+
+.personalidades-fotos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.planos {
+    background-color: rgb(26, 26, 26);
+    margin: 100px 0;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cartao {
+    width: 300px;
+    background-color: #99cd31;
+    padding: 50px;
+    color: white;
+}
+
+.cartao-titulo {
+    font-size: 35px;
+    text-align: center;
+    text-shadow: rgb(26, 26, 26) 1px 1px;
+    font-weight: 200;
+    border-bottom: 1px solid rgb(26, 26, 26);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.cartao-texto {
+    color: rgb(26, 26, 26);
+    font-weight: 200;
+    font-size: 16px;
+    text-align: center;
+}
+
+.cartao-botao {
+    display: block;
+    text-align: center;
+    margin: 30px auto 0;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: rgb(26, 26, 26);
+    color: #99cd31;
+    padding: 20px;
+}
+
+.vantagens {
+    margin: 100px 0;
+    padding: 0 100px;
+}
+
+
+.vantagens-tabela {
+    border: #729e1a 3px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.vantagens-tabela th {
+    padding: 10px;
+    background-color: #729e1a;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.vantagens-tabela td {
+    padding: 5px;
+    border: 3px solid #729e1a;
+    color: rgb(26, 26, 26);
+}
+
+.rodape-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.rodape-secundario {
+    text-align: center;
+    background: rgb(26, 26, 26);
+    color: #99cd31;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+.rodape {
+    border-top: #729e1a solid 5px;
+}
+
+
+
+
+
+
+
+
+
