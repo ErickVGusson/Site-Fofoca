@@ -4,8 +4,49 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
+    box-sizing: border-box;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6 {
     font-family: 'playfair Display';
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-bottom: transparent solid 3px;
+}
+
+.menu li:hover {
+    border-bottom: red solid 3px;
+}
+
+.menu a {
+    color: #729e1a;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.botao-entrar {
+    background-color: #99cd31;
+    border: 0;
+    padding: 10px 20px;
+    font-weight: 800;
+    font-size: 16px;
+    color: white;
 }
